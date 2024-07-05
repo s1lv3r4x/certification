@@ -83,8 +83,9 @@ public class laptopMaine {
        }
     
        public static void PrintFilt(Set<laptop>laptops,Map<String, String> filter){
+        HashSet<String> lap = new HashSet<>();
         for (laptop laptop : laptops) {
-            HashSet<String> lap = new HashSet<>();
+            
             lap.add(laptop.getColor());
             lap.add(laptop.getModel());
             lap.add(laptop.getOS());
