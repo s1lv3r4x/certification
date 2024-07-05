@@ -10,16 +10,16 @@ public class laptopMaine {
     public static void main(String args[]) {
         // создание множества и добавление туда ноутбуков
 
-        laptop Laptop_1 = new laptop("ModelA", "8", "512", "Windows", "black");
-        laptop Laptop_2 = new laptop("ModelB", "16", "256", "Windows", "silver");
-        laptop Laptop_3 = new laptop("ModelC", "8", "1024", "Linux", "black");
-        laptop Laptop_4 = new laptop("ModelD", "4", "512", "MacOS", "white");
-        laptop Laptop_5 = new laptop("ModelE", "8", "256", "Windows", "red");
-        laptop Laptop_6 = new laptop("ModelF", "16", "512", "Linux", "silver");
-        laptop Laptop_7 = new laptop("ModelG", "32", "1024", "Windows", "black");
-        laptop Laptop_8 = new laptop("ModelH", "8", "128", "MacOS", "white");
-        laptop Laptop_9 = new laptop("ModelI", "4", "256", "Linux", "black");
-        laptop Laptop_10 = new laptop("ModelJ", "8", "512", "Windows", "blue");
+        laptop Laptop_1 = new laptop("ModelA", "8", "512", "windows", "black");
+        laptop Laptop_2 = new laptop("ModelB", "16", "256", "windows", "silver");
+        laptop Laptop_3 = new laptop("ModelC", "8", "1024", "linux", "black");
+        laptop Laptop_4 = new laptop("ModelD", "4", "512", "macOS", "white");
+        laptop Laptop_5 = new laptop("ModelE", "8", "256", "windows", "red");
+        laptop Laptop_6 = new laptop("ModelF", "16", "512", "linux", "silver");
+        laptop Laptop_7 = new laptop("ModelG", "32", "1024", "windows", "black");
+        laptop Laptop_8 = new laptop("ModelH", "8", "128", "macOS", "white");
+        laptop Laptop_9 = new laptop("ModelI", "4", "256", "linux", "black");
+        laptop Laptop_10 = new laptop("ModelJ", "8", "512", "windows", "blue");
        
         Set<laptop> laptops = new HashSet<>();
         laptops.add(Laptop_1);
